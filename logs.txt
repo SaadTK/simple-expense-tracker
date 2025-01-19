@@ -1,0 +1,28 @@
+0. install pip(it comes free with python), pipenv, venv beforehand using cmd
+	using: python --version
+	       pip --version
+		pip install venv pipenv
+		
+1. created a folder called "expense-tracker"
+2. then got in it and open cmd(powershell) in it
+3. created an env using venv (pipenv shell)
+	and it created a "Pipfile" which is like a .env file	
+4. installed django on the folder on the termial using (pip install django)
+	checked installed django version using 		 
+	    (django-admin --version)
+5. created a django app called expense-tracker using (django-admin startproject expense_tracker)
+
+*** to run the env type "pipenv shell" on the terminal***
+
+
+6. to run liveserver of the django app 
+	we go to the folder where there is manage.py in cmd
+	using (cd expense_tracker)
+	then we type "python manage.py runserver"
+7. running this tells us that the server is running at  http://127.0.0.1:8000/
+
+  
+
+
+
+
